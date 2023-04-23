@@ -1,0 +1,71 @@
+.card-temas{
+    max-width: 360px;
+    width: 100%;
+    background-color: var(--background);
+    border: 1px solid var(--secondary-color);
+    border-radius: 10px;
+    margin: 30px auto;
+    .card-header{
+        position: relative;
+        .card-image{
+            width: 100%;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            width: 100%;
+            object-fit: cover;
+            object-position: center center;
+            max-height: 250px;
+        }
+        .card-country{
+            position: absolute;
+            top: 8px;
+            left: 8px;
+        }
+    }
+    .card-details{
+        padding: 12px;
+        h2{
+            font-size: 22px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+        p{
+            font-size: 14px;
+        }
+        .card-description{
+            background-color: var(--secondary-color);
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            border-radius: 5px;;
+            margin-top: 12px;
+            i{
+                color: var(--primary-color);
+                font-weight: 500;
+                margin: 0px 10px;
+                font-size: 20px;
+            }
+            p{
+                font-size: 14px;
+                color: var(--text-light);
+            }
+        }
+        button{
+            margin-top: 16px;
+            align-self: flex-end;
+            background-color: var(--primary-color);
+            color: var(--text-white);
+            padding: 10px 16px;
+            border-radius: 15px;
+            font-size: 12px;
+            margin-right: 5px;
+            margin-left: auto;
+            display: block;
+        }
+    }
+    @media screen and (min-width: 768px){
+        margin: 20px auto;
+    }
+}
+    

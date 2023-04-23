@@ -1,0 +1,60 @@
+.card-mentor-container{
+    .container{
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        max-width: 1200px;
+        flex-wrap: wrap;
+        .card-special{
+            background-color: var(--primary-color);
+            color: var(--text-white);
+            max-width: 360px;
+            height: 256px;
+            margin: 30px auto;
+            border-radius: 10px;
+            padding: 16px;
+            
+            h3{
+                font-weight: 700;
+                font-size: 22px;
+                margin-bottom: 14px;
+            } 
+            p{
+                font-size: 14px;
+            }
+            button{
+                margin-top: 16px;
+                align-self: flex-end;
+                background-color: var(--primary-color);
+                color: var(--text-white);
+                padding: 12px 20px;
+                border-radius: 20px;
+                font-size: 14px;
+                margin-right: 5px;
+                margin-left: auto;
+                display: block;
+                border: 1px solid var(--text-white)
+            }
+        }
+        @media screen and (min-width: 768px){
+            .card-special{
+                margin-top: 184px;
+                padding-bottom: 10px;
+            }
+        }
+    }
+    .cargar-mas{
+        margin-top: 16px;
+        align-self: flex-end;
+        padding: 12px 24px;
+        border-radius: 18px;
+        font-size: 14px;
+        margin-right: 5px;
+        margin-left: auto;
+        display: block;
+        border: 1px solid var(--primary-color);
+        color: var(--primary-color);
+        margin: auto;
+        display: block;
+    }
+}

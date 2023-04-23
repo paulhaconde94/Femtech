@@ -1,0 +1,23 @@
+.card-temas-container{
+    .container{
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        max-width: 1200px;
+        flex-wrap: wrap;
+    }
+    .cargar-mas{
+        margin-top: 16px;
+        align-self: flex-end;
+        padding: 12px 24px;
+        border-radius: 18px;
+        font-size: 14px;
+        margin-right: 5px;
+        margin-left: auto;
+        display: block;
+        border: 1px solid var(--primary-color);
+        color: var(--primary-color);
+        margin: auto;
+        display: block;
+    }
+}

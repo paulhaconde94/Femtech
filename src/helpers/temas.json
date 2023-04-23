@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "titulo": "Como acelerar el crecimiento como",
+        "tema": "Diseño",
+        "imagen": "https://i.imgur.com/C4KMVJd.png"
+    },
+    {
+        "id": 2,
+        "titulo": "Ser una mujer en tecnología",
+        "tema": "Diseño",
+        "imagen": "https://i.imgur.com/mND6Wrj.png"
+    },
+    {
+        "id": 3,
+        "titulo": "Liderando equipos como una mujer",
+        "tema": "Diseño",
+        "imagen": "https://i.imgur.com/le8lqER.png"
+    },
+    {
+        "id": 4,
+        "titulo": "Manejando el equilibrio trabajo y vida personal",
+        "tema": "Bienestar",
+        "imagen": "https://i.imgur.com/uQbseYu.png"
+    },
+    {
+        "id": 5,
+        "titulo": "Finanzas personales",
+        "tema": "Bienestar",
+        "imagen": "https://i.imgur.com/x710rZt.png"
+    },
+    {
+        "id": 6,
+        "titulo": "Pon a prueba tu portafolio",
+        "tema": "Búsqueda de trabajo",
+        "imagen": "https://i.imgur.com/RXkTGbO.png"
+    },
+    {
+        "id": 7,
+        "titulo": "Síndrome de la impostora",
+        "tema": "Crecimiento",
+        "imagen": "https://i.imgur.com/sVPXcPF.png"
+    },
+    {
+        "id": 8,
+        "titulo": "Accesibilidad: guía para equipos pequeños",
+        "tema": "Producto",
+        "imagen": "https://i.imgur.com/cAMZEaP.png"
+    },
+    {
+        "id": 9,
+        "titulo": "Cómo responder ante el acoso",
+        "tema": "Bienestar",
+        "imagen": "https://i.imgur.com/ZhOHGWI.png"
+    }
+]
