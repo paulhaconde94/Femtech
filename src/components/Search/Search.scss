@@ -40,14 +40,54 @@
             bottom: 15px;
         }
     }
-    input{
-        background-color: var(--secondary-color);
-        width: 100%;
-        padding: 18px;
-        max-width: 1170px;
-        display: block;
-        margin: auto;
-        border-radius: 20px;
+    .search-input{
+        .search-icons1{
+            max-width: 1170px;
+            display: block;
+            margin: auto;
+            padding: 18px;
+            bottom: 0;
+            position: relative;
+            .fa-bars{
+                position: absolute;
+                top: 54px;
+                color: var(--icons);
+                font-size: 16px;
+            }
+        }
+        .search-icons2{
+            max-width: 1170px;
+            display: block;
+            margin: auto;
+            padding: 18px;
+            bottom: 0;
+            position: relative;
+            .fa-magnifying-glass{
+                position: absolute;
+                right: 44px;
+                top: -32px;
+                color: var(--icons);
+                font-size: 16px;
+            }
+            .fa-ellipsis-vertical{
+                position: absolute;
+                right: 20px;
+                top: -32px;
+                color: var(--icons);
+                font-size: 16px;
+            }
+        }
+        input{
+            background-color: var(--secondary-color);
+            width: 100%;
+            padding: 18px;
+            padding-left: 42px;
+            max-width: 1170px;
+            display: block;
+            margin: auto;
+            border-radius: 20px;
+            
+        }
     }
     border-bottom: 1px solid var(--text-light);
 }

@@ -6,7 +6,17 @@ const CardMentorContainer = () => {
     return(
         <>
             <div className="card-mentor-container">
-            <input placeholder="Busca por nombre, compañia o rol"/>
+            <div className="search-input">
+                <div className="search-icons1">
+                    <i className="fa-solid fa-bars"></i>
+                </div>
+                
+                <input placeholder="Busca por nombre, compañia o rol"/>
+                <div className="search-icons2">
+                    <i className="fa-solid fa-magnifying-glass"></i>
+                    <i className="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+            </div>
                 <div className="container">
                     <div className="card-special">
                         <h3>¿Quieres encontrar una mentoria con intereses y experiencias similares a los tuyos?</h3>

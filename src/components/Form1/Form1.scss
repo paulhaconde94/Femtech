@@ -1,0 +1,46 @@
+.form1{
+    h3{
+        color: var(--primary-color);
+        text-align: center;
+        display: block;
+        margin: 20px auto ;
+        font-size: 32px;
+    }
+    h4{
+        font-weight: 500;
+        font-size: 24px;
+        text-align: center;
+        color: var(--text-light);
+        margin-bottom: 20px;
+    }
+    > div > div{
+        background-color: var(--ternary-color);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 320px;
+        padding: 10px;
+        border-radius: 5px;
+        margin: 10px auto;
+        i{
+            font-size: 18px;
+        }
+        p{
+            font-weight: 700;
+            font-size: 16px;
+        }
+    }
+    button{
+            margin-top: 16px;
+            align-self: flex-end;
+            background-color: var(--primary-color);
+            color: var(--text-white);
+            padding: 16px 32px;
+            border-radius: 30px;
+            font-size: 14px;
+            margin-right: 5px;
+            margin-left: auto;
+            display: block;
+            cursor: pointer;
+    }
+}
